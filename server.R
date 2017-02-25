@@ -1,5 +1,5 @@
 server = function(input, output) {
   output$mytable = renderDataTable({
-    PRACTICAL=read.csv('PRACTICAL.csv')
+    PRACTICAL=read.csv('PRACTICAL_MRfinalplot.csv')
   })
 }
